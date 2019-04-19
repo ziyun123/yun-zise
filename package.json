@@ -1,0 +1,23 @@
+{
+  "name": "yun-zise",
+  "version": "1.0.0",
+  "description": "My first NPM module project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ziyun123/yun-zise.git"
+  },
+  "keywords": [
+    "My",
+    "first."
+  ],
+  "author": "ziyun123",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ziyun123/yun-zise/issues"
+  },
+  "homepage": "https://github.com/ziyun123/yun-zise#readme"
+}
