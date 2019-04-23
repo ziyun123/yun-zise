@@ -1,23 +1,26 @@
 {
-  "name": "yun-zise",
-  "version": "1.0.0",
-  "description": "My first NPM module project.",
-  "main": "index.js",
-  "scripts": {
-    "test": "npm test"
+  "name": "yun-zise",//包名
+  "version": "1.0.0",//版本
+  "description": "My first NPM module project.",//包的说明
+  "main": "index.js"//入口文件
+  "scripts": {//可执行的脚本命令
+    "test": "echo \"Error:no test specified\"&& exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ziyun123/yun-zise.git"
   },
-  "keywords": [
+  "keywords": [//关键字
     "My",
     "first."
   ],
-  "author": "ziyun123",
-  "license": "ISC",
+  "author": "ziyun123",//作者
+  "bin": { // 个属性在插件被安装的时候会被npm读取，找到相应的运行文件并生成指令
+	"poject-deploy": "./bin/deploy.js"
+  },
+  "license": "ISC",//许可证
   "bugs": {
     "url": "https://github.com/ziyun123/yun-zise/issues"
   },
-  "homepage": "https://github.com/ziyun123/yun-zise#readme"
+  "homepage": "https://github.com/ziyun123/yun-zise#readme",
 }
